@@ -1,0 +1,123 @@
+
+
+body
+{
+
+background-color:#D4D9DD;
+
+}
+
+.click-nav
+{
+
+margin-left:1200px;
+width:100px;
+
+margin-top:-80;
+
+}
+
+.click-nav ul
+{
+
+font-weight:900;
+
+
+}
+
+.click-nav ul li
+{
+
+position:relative;
+
+list-style:none;
+
+cursor:pointer;
+
+
+}
+
+.click-nav ul li ul
+{
+
+position:absolute;
+	
+left:auto;
+	
+right:0;
+
+width:150px;
+}
+
+.click-nav ul .clicker 
+{
+	
+background:#2284B5;
+	
+color:#FFF;
+
+
+}
+
+.click-nav ul .clicker:hover,
+.click-nav ul .active 
+{
+	
+background:#196F9A;
+
+}
+
+.click-nav img 
+{
+	
+position:absolute;
+	
+top:9px;
+	
+left:12px;
+
+
+}
+
+.click-nav ul li a 
+{
+	
+transition:background-color 0.2s ease-in-out;
+	
+-webkit-transition:background-color 0.2s ease-in-out;
+	
+-moz-transition:background-color 0.2s ease-in-out;
+	
+display:block;
+
+padding:8px 10px 8px 40px;
+	
+background:#FFF;
+	
+color:#333;
+	
+text-decoration:none;
+
+height:30px;
+
+}
+
+.click-nav ul li a:hover 
+{
+	
+background:#F2F2F2;
+
+}
+
+.click-nav .no-js ul 
+{
+	
+display:none;
+
+}
+
+.click-nav .no-js:hover ul 
+{
+	
+display:block;
+}

@@ -1,0 +1,21 @@
+.main {
+	position: relative;
+	height: 174px;
+	width:232%;
+	background: -webkit-linear-gradient(left, slategray , lightgray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, slategray, lightgray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, slategray, lightgray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, slategray, lightgray); /* Standard syntax */
+	border: 2px solid black;
+
+
+}
+
+.main:hover {
+	box-shadow: 0 3px 25px #000;
+	background: -webkit-linear-gradient(left, cadetblue , lightgray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, cadetblue, lightgray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, cadetblue, lightgray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, cadetblue, lightgray); /* Standard syntax */
+
+}

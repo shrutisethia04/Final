@@ -1,0 +1,53 @@
+<html>
+<head>
+  
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link type="text/css" href="style.css" rel="stylesheet">
+ <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+
+ 
+  <script type="text/javascript">
+  $(function() {
+    $( "#sortable1, #sortable2" ).sortable({
+      connectWith: ".connectedSortable"
+    }).disableSelection();
+  });
+  </script>
+</head>
+<body>
+<div id="header">
+
+<section class="color-1">
+        <nav class="cl-effect-1">
+          <a href="#" style="font-family:arial">Header</a>
+        </nav>
+      </section>
+
+</div>
+<hr />  
+ <p class="text1" >Fields</p>
+<p class="text2" >Preference</p>
+<p class="text3">*Drag the entries to move between columns</p>
+<ul id="sortable1" class="connectedSortable">
+  <li class="ui-state-default">Item 1</li>
+  <li class="ui-state-default">Item 2</li>
+  <li class="ui-state-default">Item 3</li>
+  <li class="ui-state-default">Item 4</li>
+  <li class="ui-state-default">Item 5</li>
+</ul>
+ 
+<ul id="sortable2" class="connectedSortable">
+
+</ul>
+ 
+<a href="home2.php"><input type="button" class="button2" value="Submit"></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="footer">Footer</div>
+ 
+</body>
+</html>

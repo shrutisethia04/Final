@@ -1,0 +1,37 @@
+RESET
+,
+*:after,
+*:before
+ {
+	
+margin:0;
+	
+padding:0;
+	
+box-sizing:border-box;
+	
+-webkit-box-sizing:border-box;
+	
+-moz-box-sizing:border-box;
+	
+-webkit-font-smoothing:antialiased;
+	
+font-smoothing:antialiased;
+	
+text-rendering:optimizeLegibility;
+
+}
+
+body 
+{
+	
+font:400 12px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+background:#333;
+
+align:center;
+}
+
+
+
+

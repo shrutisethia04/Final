@@ -1,0 +1,12 @@
+<?php
+include_once("config.php");
+if(array_key_exists('logout',$_GET))
+{
+	$facebook->destroySession();
+	//session_start();
+	print_r($_SESSION['userdata']);
+	unset($_SESSION['userdata']);
+	session_destroy();
+	//header("Location:index.php");
+}
+?>

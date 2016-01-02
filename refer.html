@@ -1,0 +1,111 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="demo.css">
+<link rel="stylesheet" type="text/css" href="fontcss.css">
+
+</head>
+<body>
+
+<div id="header">
+<section class="color-1">
+				<nav class="cl-effect-1">
+					<a href="home2.html">Home</a>
+					<a href="#">Dashboard</a>
+				</nav>
+			
+
+ <div class="click-nav">
+			<ul class="no-js">
+				<li>
+					<a class="clicker"><img src="i-7.png" alt="Icon" style="height:30">
+                    <img src="i-10.png" alt="Icon" style="margin-left:32px;margin-top:10px"></a>
+					<ul style="z-index:10;">
+						<li><a href="#"><img src="i-5.png" alt="Icon">My Referrals</a></li>
+						<li><a href="#"><img src="i-5.png" alt="Icon">Edit Profile</a></li>
+						<li><a href="#"><img src="i-5.png" alt="Icon">Change Password</a></li>
+						<li><a href="#"><img src="i-5.png" alt="Icon">Sign out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- /Clickable Nav -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		
+		<script>
+		$(function() {
+			// Clickable Dropdown
+			$('.click-nav > ul').toggleClass('no-js js');
+			$('.click-nav .js ul').hide();
+			$('.click-nav .js').click(function(e) {
+				$('.click-nav .js ul').slideToggle(200);
+				$('.clicker').toggleClass('active');
+				e.stopPropagation();
+			});
+			$(document).click(function() {
+				if ($('.click-nav .js ul').is(':visible')) {
+					$('.click-nav .js ul', this).slideUp();
+					$('.clicker').removeClass('active');
+				}
+			});
+		});
+		</script>
+	
+
+
+
+
+
+
+<a href="https://www.facebook.com/pages/Grow-Online-with-Stride-Line/312753672253683?fref=ts" target="_blank"><img src="img2.png" style=" margin-left:1150;margin-top:-64;height:50px;width:50px;border-radius:30px"></a><br><br>
+
+</section>
+</div>
+<h1>Welcome User</h1>
+<div id="button">
+  <ul>
+    <li><a href="applied.html" active>Applied Internships</a></li>
+    <li><a style="background-color: slategrey;font-weight: bold;" href="refer.html">Referred Internships</a></li>
+    <li><a href="recom.html">Recommended Internships</a></li>
+   
+  </ul>
+<div id="applied">
+		<div id="table">
+
+ <ul id="bleh">
+ <li>
+   <div class="main">
+ 	<img src="img.jpg" class="logo">
+	<div class="details"> <h3>Company Name</h3>
+	<p>Location Details..................</p> </div>
+	<button class="one"> Apply </button>
+	<button class="two"> Refer </button>
+    </div>
+  </li>
+  <li>
+   <div class="main">
+ 	<img src="img.jpg" class="logo">
+	<div class="details"> <h3>Company Name</h3>
+	<p>Location Details..................</p> </div>
+	<button class="one"> Apply </button>
+	<button class="two"> Refer </button>
+    </div>
+  </li>
+  <li> <div class="main">
+ 	<img src="img.jpg" class="logo">
+	<div class="details"> <h3>Company Name</h3>
+	<p>Location Details..................</p> </div>
+	<button class="one"> Apply </button>
+	<button class="two"> Refer </button>
+    </div>
+    </li>
+ 
+  
+</ul>
+<br/>
+</div>
+</div>
+</div>
+
+<div id="header">Footer</div>
+</body>
+</html>
